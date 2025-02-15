@@ -1,2 +1,2 @@
-bun run lint:format
-bun run lint:check
+npm run lint:format
+npm run lint:check
