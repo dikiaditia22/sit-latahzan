@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint:check": "bunx biome lint src",
-		"lint:format": "bunx biome format src --fix",
+    "lint:check": "npx biome lint src",
+		"lint:format": "npx biome format src --fix",
     "prepare": "husky"
   },
   "dependencies": {
