@@ -1,75 +1,80 @@
 export default function Home() {
 	return (
 		<>
-			<section className=" bg-yellow-400 mx-auto">
-				<div className="flex justify-between items-center container mx-auto pt-3">
+			<section className="bg-yellow-400 mx-auto">
+				<div className="flex justify-between items-center container mx-auto p-7">
 					<img className="w-24" src="/jsit.png" alt="" />
-					<h1 className="text-center font-bold text-2xl">SEJARAH LATAHZAN</h1>
-					<img className="w-24" src="sditlatahzan.png" alt="" />
+					<h1 className="text-center font-bold text-4xl">SEJARAH LATAHZAN</h1>
+					<img className="w-24" src="sditlatahzan.png" alt=""/>
+				</div>
+				<div className="mx-auto container p-10">
+					<p className="text-justify text-xl tracking-wide pb-2 indent-10">Sejak berdirinya Yayasan Assalam unit pertama yang bergerak adalah Pesantren Yatim Assalam dengan tujuan non provit Alhamdulillah banyakn Alumni Santri Pesantren Assalam sejak berdirinya pada tahun 1990 yang sudah mendapatkan manfaatnya sejak saat itu berdirilah lembaga pendidikan RA Assalam pada tahun 2002 kemudian unit baru SDIT Latahzan pada tahun 2011 dengan jumlah 10 Siswa dan Alhamdulillah sejak saat ini mendirikan Rumah Quran Latahzan ditahun 2024 dan menyusul pada tahun ini 2025 berdiri SMPIT Latahzan.</p>
+					<p className="text-justify text-xl tracking-wide pb-2 indent-10">SDIT Latahzan berdiri sejak 2011. Dengan niat dakwah dan semangat untuk mendirikan Lembaga Pendidikan Islam Terpadu yang memplopori diwilayah khususnya Kecamatan Mauk dengan jumlah peserta didik 10 Siswa, beriringnya waktu Alhamdulillah sejak saat berdiri sudah banyak prestasi diberbagai bidang, Para Alumni tersebar dipesantren Favorit dan juga Sekolah Negeri Favorit sekitar Tangerang. </p>
+					<p className="text-justify text-xl tracking-wide pb-2 indent-10">Berkat tekad yang kuat kami demi meningkatkan mutu dan kualitas pendidikan, SDIT Latahzan membuka kelas Excellent berbasis bilingual dengan sistem fullday school, Alhamdulillah Antusiasme dan kepercayaan masyarakat makin meningkat untuk mengamanahkan putra putrinya belajar di SDIT Latahzan. Semoga lahir lah generasi robbani yang paham agama dan memadukan keilmuannya untuk kepentingan umat.</p>
 				</div>
 			</section>
-			<section className=" bg-green-600 mx-auto">
+			<section className=" bg-white mx-auto">
 				<h1 className="text-center font-bold text-4xl pt-6 ">
-					MOTTO <span className="text-yellow-400">LATAHZAN</span>
+					SDIT <span className="text-green-700">LATAHZAN</span>
 				</h1>
-				<p className="text-center text-white text-2xl mt-10 max-w-full italic">
-					"Smart And Religious"
+				<p className="text-center text-3xl mt-10 max-w-full italic ">
+					Smart And Religious
 				</p>
-				<section className="justify-wrap mt-10 mx-auto container ">
+				<section className="justify-wrap mt-10 mx-auto container">
 					<div className=" w-full rounded-e-xl border-solid mb-8">
 						<h2 className=" text-justify font-bold mt-10 pl-4 text-3xl">
-							VISI <span className="text-yellow-400">LATAHZAN</span>
+							VISI <span className="text-green-700">LATAHZAN</span>
 						</h2>
-						<p className=" text-justify mt-3 p-4">
+						<p className=" text-justify text-xl mt-3 pl-4">
 							Membentuk generasi Rabbani yang menguasai serta memanfaatkan ilmu
 							pengetahuan dan teknologi dengan pola pikir maju dan kreatif.
 						</p>
 					</div>
-					<div className=" w-full rounded-s-xl border-solid pt-10 mb-8">
+					<div className="w-full rounded-s-xl border-solid pt-10 mb-8">
 						<h2 className="text-justify font-bold mt-10 pl-4 text-3xl">
-							MISI <span className="text-yellow-400">LATAHZAN</span>
+							MISI <span className="text-green-700">LATAHZAN</span>
 						</h2>
-						<p className="mt-3 text-justify p-4">
+						<p className="mt-3 text-justify text-xl pl-4">
 							1. Menyelanggarakan pendidikan berdasarkan keislaman.
 						</p>
-						<p className="mt-3 text-justify p-4">
+						<p className="mt-3 text-justify text-xl pl-4">
 							2. Menanamkan keislaman berdasarkan al-Quran dan Sunnah.
 						</p>
-						<p className="mt-3 text-justify p-4">
+						<p className="mt-3 text-justify text-xl pl-4">
 							3. Melaksanakan program pendidikan, yang mendorong pola pikir maju
 							dan kreatif.
 						</p>
-						<p className="mt-3 text-justify p-4">
+						<p className="mt-3 text-justify text-xl pl-4">
 							4. Memfasilitasi siswa dalam mengembangkan kemampuan dan
 							pengetahuan.
 						</p>
-						<p className="mt-3 text-justify p-4">
+						<p className="mt-3 text-justify text-xl pl-4">
 							5. Meningkatkan prestasi, keterampilan dan kemandirian siswa.
 						</p>
-						<p className="mt-3 text-justify p-4">
+						<p className="mt-3 text-justify text-xl pl-4">
 							6. Mencintai dan menjadikan budaya Nasional sebagai Identitas
 							diri.
 						</p>
-						<p className="mt-3 text-justify p-4">
+						<p className="mt-3 text-justify text-xl pl-4">
 							7. Mewujudkan lingkungan sekolah bersih, sehat dan nyaman.
 						</p>
 					</div>
-					<div className=" w-full rounded-e-xl border-solid mb-8">
+					<div className="w-full rounded-e-xl border-solid pt-10 mb-8">
 						<h2 className="text-justify font-bold mt-10 pl-4 text-3xl">
-							TUJUAN <span className="text-yellow-400">LATAHZAN</span>
+							TUJUAN <span className="text-green-700">LATAHZAN</span>
 						</h2>
-						<p className=" text-justify mt-3 p-4">
-							Membentuk generasi Rabbani yang menguasai serta memanfaatkan ilmu
+						<p className="text-justify text-xl mt-3 p-4">
+							Membentuk generasi Rabbani yang taat pada Allah SWT dan Rasulnya, memahami nilai-nilai Islam dan mencetak calon para penghafal Al-Quran serta menguasai & memanfaatkan ilmu
 							pengetahuan dan teknologi dengan pola pikir maju dan kreatif.
 						</p>
 					</div>
 				</section>
 			</section>
-			<section>
-				<div className="mx-auto w-full max-w-xl">
-					<h1 className="text-center">PENGURUS DAN PENGAJAR</h1>
-					<p className="text-justify">
-						Untuk dapat membina pendidikan yang baik, Yayasan menyediakan
+			<section className="mx-auto bg-blue-700">
+				<div className="mx-auto w-3/4 container">
+					<h1 className="text-center font-bold text-4xl pt-6 pb-10 text-yellow-400">PENGURUS <span className="text-white">DAN</span> <span className="text-yellow-400">PENGAJAR</span> </h1>
+					<p className="text-justify text-2xl text-white">
+						Untuk dapat membina pendidikan yang baik, Yayasan As-Salam menyediakan
 						tenaga-tenaga yang kapabel dan berpengalaman. Dimana seluruh tenaga
 						pendidik berijazah S1 dan beberapa ada yang berijazah S2.
 					</p>
